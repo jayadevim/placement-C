@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main()
+{
+    int a,b ;
+    int sum,sub,mul,div;
+    printf("enter a value:");
+    scanf("%d", &a);
+    printf("enter b value:");
+    scanf("%d",&b);
+    sum = a+b;
+    sub = a-b;
+    mul = a*b;
+    div = a%b;
+    printf("sum:%d\n",sum);
+    printf("sub:%d\n",sub);
+    printf("mul:%d\n",mul);
+    printf("div:%d\n",div);
+    return 0;
+}
+
+Output:
+   enter a=44
+   b=35
+   sum:79
+   sub:9
+   mul:1540
+   div:9
+   
