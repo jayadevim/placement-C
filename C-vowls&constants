@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+   char s;
+   scanf("%c",&s);
+ if(s=='a'||s=='e'||s=='i'||s=='o'||s=='u')
+ printf("vowls");
+ else 
+ printf("constants");
+
+    return 0;
+}
+
+output:
+    e
+    is a vowls
+    h
+    is a constants
