@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+   switch(1)
+   {
+       case 1: printf("MONDAY");
+       break;
+       case 2: printf("TUESDAY");
+       break;
+       default:
+   }
+
+    return 0;
+}
+
+output:
+    MONDAY
