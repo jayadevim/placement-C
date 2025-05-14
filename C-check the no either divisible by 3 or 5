@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() 
+{
+    int num;
+    scanf("%d", &num);
+    
+    if (num % 3 == 0 && num % 5 == 0)
+        printf("HiHello\n");
+    else if (num % 3 == 0)
+        printf("Hi\n");
+    else if (num % 5 == 0)
+        printf("Hello\n");
+        
+    return 0;
+}
