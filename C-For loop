@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+    int a=1;
+   for(a=1;a<=7;a++)
+   {
+       printf("A");
+   }
+    return 0;
+}
+
+output:
+   AAAAAAA
