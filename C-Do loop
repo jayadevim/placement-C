@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    int a=1;
+    do
+    {
+    printf("abc");
+    a++;
+    }while(a<=4);
+
+    return 0;
+}
+
+output:
+   abcabcabcabc
